@@ -30,6 +30,7 @@ export default function ProductCard({ item }) {
           <span>${item.price}</span>
         </div>
 
+        <>hello by aryan </>
         <button
           onClick={handleAddToCart}
           className="mt-5 w-full cursor-pointer rounded-se-2xl bg-black p-3 text-white transition-colors duration-200 hover:bg-amber-800"
