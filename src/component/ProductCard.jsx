@@ -12,6 +12,7 @@ export default function ProductCard({ item }) {
       <div className="flex h  -56 items-center justify-center py-3">
         <img className="w-40 object-contain" src={item.img} alt={item.name} />
       </div>
+      <>Hello conflict </>
 
       <div className="mt-6 space-y-2 px-4">
         <h2 className="text-2xl font-bold">{item.name}</h2>
@@ -29,8 +30,6 @@ export default function ProductCard({ item }) {
           <span className="text-gray-500">Price</span>
           <span>${item.price}</span>
         </div>
-
-        <>hello by aryan </>
         <button
           onClick={handleAddToCart}
           className="mt-5 w-full cursor-pointer rounded-se-2xl bg-black p-3 text-white transition-colors duration-200 hover:bg-amber-800"
